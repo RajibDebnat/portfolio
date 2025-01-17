@@ -59,7 +59,7 @@ function Hero() {
 
 
             {/* <TypewriterEffectSmooth words={words}/> */}
-            <a href="#about" title="scrolling to about page">
+            <a href="#projects" title="scrolling to about page">
 
           <ShimarButton title='Show my work' icon={<FaLocationArrow/>} position="right"/> 
             </a>
