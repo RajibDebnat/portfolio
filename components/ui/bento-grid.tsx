@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import React from "react";
 
 export const BentoGrid = ({
   className,
@@ -11,7 +12,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "   grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid md:grid-rows-2 grid-cols-1 md:grid-cols-4  gap-4 max-w-7xl mx-auto ",
         className
       )}
     >
@@ -25,45 +26,31 @@ export const BentoGridItem = ({
   title,
   description,
   img,
-  imgClassName,
+  imageClass,
   titleClassName,
-  spareImg,
-  id,
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  id?: number;
-  img?: string;
-  imgClassName?: string;
-  titleClassName?: string;
-  spareImg?: string;
-  // header?: React.ReactNode;
-  // icon?: React.ReactNode;
+  header?: React.ReactNode;
+  icon?: React.ReactNode;
+  img?:string;
+  imageClass?:string;
+  titleClassName?:string; 
+
 }) => {
-  console.log(className);
   return (
     <div
-      // "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
       className={cn(
-        "row-span-1 relative  rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
+        " rounded-xl relative group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
-      style={{
-   
-        background:"  linear-gradient(90deg, rgba(4,7,29,1) 0%, , rgba(12,14,35,1) 100%)"      }}
+      style={{background:'rgb(4,7,29)',}}
     >
-
-<div className={`${id===6} &&"  flex justify-center h-full"`}>
-  <div className=" w-full h-full absolute">
-   {img && <img className={cn(imgClassName,' object-cover object-center ')}  src={img} alt="d"/>} 
-  </div>
-  <div>
-    
-  </div>
-</div>
+      {/* {header} */}
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         {/* {icon} */}
+
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title}
         </div>

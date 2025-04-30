@@ -23,7 +23,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Rajib Debnath, frontend developer, React developer, Next.js developer, portfolio, web developer, JavaScript, responsive design"
+          content="Rajib Debnath, frontend developer, React developer, Next.js developer, portfolio, web developer, JavaScript, responsive design,website developer, rajib portfolio , portfolio webwite, website inpiration"
         />
         <meta name="author" content="Rajib Debnath" />
         <meta name="robots" content="index, follow" />
@@ -67,7 +67,7 @@ export default function Home() {
         <div>
           <FloatingNav navItems={navItems} />
           <Hero />
-          {/* <Grid/> */}
+          <Grid/>
           <RecentProjects />
           <Client />
           <Experience />

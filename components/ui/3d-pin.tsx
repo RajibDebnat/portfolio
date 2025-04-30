@@ -37,7 +37,7 @@ export const PinContainer = ({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <Link href={href || "/"} className="absolute inset-0">
+      <Link href={href || "/"} target="_blank" className="absolute inset-0">
         <div
           style={{
             perspective: "1000px",
