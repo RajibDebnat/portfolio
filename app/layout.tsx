@@ -10,7 +10,7 @@ import { ThemeProvider } from "./theme-provider";
 export const metadata: Metadata = {
   title: "Rajib | Website Developer in Alipurduar | Frontend Expert",
   description:
-    "I'm Rajib, a frontend website developer based in Alipurduar. I specialize in HTML, CSS, JavaScript, React, Next.js, API integration, and animations with Framer Motion. Let's build your dream website!",
+    "I'm Rajib, a frontend website developer from Alipurduar. I specialize in HTML, CSS, JavaScript, React, Next.js, API integration, and animations with Framer Motion. Let's build your dream website!",
   keywords: [
     "Rajib website developer",
     "Website developer Alipurduar",

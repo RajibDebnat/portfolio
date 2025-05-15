@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import ShimarButton from "./ui/Shimar-button";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 const words = [
   {
     text: "Build",
@@ -43,26 +44,26 @@ function Hero() {
         </div>
         <div className=" flex justify-center my-20 z-10 relative">
           <div className=" max-w-[89vw]  md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center  ">
-            <h2 className=" text-blue-100 uppercase tracking-widest text-xs text-center max-w-80">
-              Dynamic Web Magic With Next.Js
-            </h2>
+            <p className=" text-blue-100 uppercase tracking-widest text-xs text-center max-w-80">
+            Alipurduar Best Website Development Agency
+            </p>
             <TextGenerateEffect
               duration={1}
               words="Transforming Concepts into Seamless User Experiance"
               className="text-[70px] text-center  max-md:text-[40px] max-sm:text-[35px]"
               // otherClasses="  m"
             />
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi I&apos;m Rajib, A Next.js Developer based in Alipurduar.{" "}
-            </p>
+            <h2 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Helping You Bring Your Business Online to Boost Sales
+            </h2>
             <div className=" mt-8">
 
 
             {/* <TypewriterEffectSmooth words={words}/> */}
-            <a href="#projects" title="scrolling to about page">
+            <Link href="#projects" title="scrolling to about section">
 
           <ShimarButton title='Show my work' icon={<FaLocationArrow/>} position="right"/> 
-            </a>
+            </Link>
             </div>
           </div>
         </div>
