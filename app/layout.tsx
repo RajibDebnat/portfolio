@@ -10,7 +10,7 @@ import { ThemeProvider } from "./theme-provider";
 export const metadata: Metadata = {
   title: "Rajib | Website Developer in Alipurduar | Frontend Expert",
   description:
-    "I'm Rajib, a frontend website developer from Alipurduar. I specialize in HTML, CSS, JavaScript, React, Next.js, API integration, and animations with Framer Motion. Let's build your dream website!",
+    "I'm Rajib, a frontend website developer from Alipurduar.Let's take your Business online angd get more customers. Let's build your dream website!",
   keywords: [
     "Rajib website developer",
     "Website developer Alipurduar",
@@ -19,7 +19,8 @@ export const metadata: Metadata = {
     "Next.js portfolio developer",
     "Hire website developer near me",
     "Website developer in Alipurduar",
-    "Rajib Debnath frontend dev"
+    "Rajib Debnath frontend dev",
+    'website devloper near me'
   ],
   authors: [{ name: "Rajib Debnath" }],
   creator: "Rajib",
@@ -95,8 +96,8 @@ export default function RootLayout({
               "addressCountry": "India",
             },
             "sameAs": [
-              "https://github.com/yourgithub", // ← Update this
-              "https://linkedin.com/in/yourlinkedin", // ← Update this
+              "https://github.com/RajibDebnat", // ← Update this
+              "https://www.linkedin.com/in/rajib-debnath-0715a6236/", // ← Update this
             ],
           })}
         </Script>
