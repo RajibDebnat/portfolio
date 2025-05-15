@@ -54,7 +54,7 @@ function Hero() {
               // otherClasses="  m"
             />
             <h2 className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Helping You Bring Your Business Online to Boost Sales
+          Help Businesses To Reach More Customer with Online Presence
             </h2>
             <div className=" mt-8">
 
