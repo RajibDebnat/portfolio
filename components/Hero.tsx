@@ -49,7 +49,7 @@ function Hero() {
             </p>
             <TextGenerateEffect
               duration={1}
-              words="Boost Your Business with Modern, User-Friendly Websites — Reach Out Today"
+              words="Creat Responsive Websites For Businesses To Get More Customers"
               className="text-[70px] text-center  max-md:text-[40px] max-sm:text-[35px]"
               // otherClasses="  m"
             />

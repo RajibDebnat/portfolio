@@ -81,11 +81,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Animated Youth Computer Training Center",
+    des: "Created a Visually Stunning and Interactive website for Youth Computer Training Center using Next.js and Acsternity ui ",
     img: "/youthcomputer.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://youth-computer-training-center.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Animated Gym Website ",
+    des: "Created A Well Structured and Responsive Gym Website using Next.js and GSAP Animation",
+    img: "/gym.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://gym-website-nine-ashen.vercel.app/",
   },
 ];
 
